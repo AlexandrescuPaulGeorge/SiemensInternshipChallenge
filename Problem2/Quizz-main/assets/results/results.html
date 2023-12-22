@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Siemens Internship Quiz</title>
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="icon" href="../../assets/images/logo.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div id="results" class="flex-center flex-column">
+            <h1 id="finalScore">0</h1>
+            <form class="results-form-container">
+                <h2 id="results-text">Enter your initals below to save your score!</h2>
+                <input type="text" initials="initials" id="username" placeholder="Enter your initials">
+                <button class="btn" id="saveScoreBtn" type="submit" onclick="saveHighScore(event)" disabled>Save</button>
+            </form>
+            <a href="../../assets/quiz/quiz.html" class="btn">Lets play again</a>
+            <a href="../../index.html" class="btn">Go home</i></a>
+        </div>
+    </div>
+    
+    <script src="./results.js"></script>
+    
+</body>
+</html>
