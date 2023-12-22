@@ -1,0 +1,1 @@
+On vscode install extension LiveServer after that open index.html -> right click Open with Live Server-> enjoy :)
